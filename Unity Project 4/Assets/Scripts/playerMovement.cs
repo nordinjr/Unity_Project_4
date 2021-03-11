@@ -60,16 +60,12 @@ public class playerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(20);
-<<<<<<< HEAD
         }
-=======
             SoundEffects.PlaySound("impact");
-        }
->>>>>>> main
     }
 
 
-    void Die()
+void Die()
     {
         Instantiate(deathEffect, transform.position, Quaternion.identity);
         Destroy(gameObject);
