@@ -60,6 +60,7 @@ public class playerMovement : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             TakeDamage(20);
+            SoundEffects.PlaySound("impact");
         }
     }
 
