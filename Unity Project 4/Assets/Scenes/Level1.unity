@@ -940,6 +940,7 @@ GameObject:
   - component: {fileID: 488899499}
   - component: {fileID: 488899501}
   - component: {fileID: 488899500}
+  - component: {fileID: 488899502}
   m_Layer: 0
   m_Name: Ocean Background
   m_TagString: Untagged
@@ -1049,6 +1050,22 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!114 &488899502
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 488899498}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c229d465fa74f91998a82590a1ac28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceX: -2
+  distanceY: -2
+  smoothingX: 1
+  smoothingY: 1
 --- !u!1 &498308733
 GameObject:
   m_ObjectHideFlags: 0
@@ -1658,7 +1675,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 337810590}
-  speed: 5
+  speed: 0
   rotationSpeed: 5
   speedIncreaseMultiplier: 1
 --- !u!212 &676026914
@@ -2769,6 +2786,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1973820248}
   - component: {fileID: 1973820247}
+  - component: {fileID: 1973820249}
   m_Layer: 0
   m_Name: midground
   m_TagString: Untagged
@@ -2841,6 +2859,22 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1973820249
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1973820246}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c229d465fa74f91998a82590a1ac28, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  distanceX: -4
+  distanceY: -4
+  smoothingX: 1
+  smoothingY: 1
 --- !u!1 &1995393990
 GameObject:
   m_ObjectHideFlags: 0
