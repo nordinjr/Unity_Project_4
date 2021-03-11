@@ -15,8 +15,13 @@ public class GameManager : MonoBehaviour
     public GameObject canvas;
     public GameObject events;
 
-    private int currentLevel = 0;
     public TextMeshProUGUI menuText;
+    public TextMeshProUGUI planktonText;
+
+    private int currentLevel = 0;
+    private int planktonCount = -1;
+    private int targetPlankton = -2;
+
 
     public GameObject dialogBox;
     public GameObject dialogText;
@@ -27,6 +32,7 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         menuText.text = "Jellyfish Game";
+        planktonText.text = "";
     }
 
     // Update is called once per frame
@@ -50,21 +56,37 @@ public class GameManager : MonoBehaviour
         }
     }
 
+    public void IncPlanktonCount()
+    {
+        planktonCount++;
+        planktonText.text = "Plankton: " + planktonCount + "/" + targetPlankton;
+        if (planktonCount == targetPlankton) ChangeLevel();
 
-    private void ChangeLeve()
+    }
+
+
+    private void ChangeLevel()
     {
         if (currentLevel == 0)
         {
             startButton.SetActive(false);
             menuText.text = "";
             StartCoroutine(LoadYourAsyncScene("Level1"));
+            planktonCount = 0;
+            targetPlankton = 3;
+            UpdateCount();
             currentLevel++;
         }
     }
 
+    private void UpdateCount()
+    {
+        planktonText.text = "Plankton: " + planktonCount + "/" + targetPlankton;
+    }
+
     public void StartButton()
     {
-        ChangeLeve();
+        ChangeLevel();
     }
 
     IEnumerator ColorLerp(Color endvalue, float duration)
