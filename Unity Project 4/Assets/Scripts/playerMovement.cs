@@ -6,6 +6,7 @@ public class playerMovement : MonoBehaviour
 {
     public GameObject target;
     public float runSpeed;
+    public float turnSpeed;
 
     private float horizontal;
     private float vertical;
@@ -27,6 +28,6 @@ public class playerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         body.AddForce(transform.up * vertical * runSpeed);
-        transform.Rotate(Vector3.back * horizontal);
+        transform.Rotate(Vector3.back * horizontal * turnSpeed);
     }
 }
