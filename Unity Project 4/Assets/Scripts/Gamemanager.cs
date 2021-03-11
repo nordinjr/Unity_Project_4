@@ -44,10 +44,10 @@ public class GameManager : MonoBehaviour
             DontDestroyOnLoad(canvas);
             DontDestroyOnLoad(events);
         }
-        //else
-        //{
-        //    Destroy(gameObject);
-        //}
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
 
