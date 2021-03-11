@@ -15,6 +15,7 @@ public class playerMovement : MonoBehaviour
     public int maxHealth = 100;
     public int currentHealth;
     public HealthBar healthbar;
+    public GameObject deathEffect;
 
     // Start is called before the first frame update
     void Start()
@@ -47,5 +48,25 @@ public class playerMovement : MonoBehaviour
         currentHealth -= damage;
 
         healthbar.SetHealth(currentHealth);
+
+        if (currentHealth <= 0)
+        {
+            Die();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            TakeDamage(20);
+        }
+    }
+
+    void Die()
+    {
+        Instantiate(deathEffect, transform.position, Quaternion.identity);
+        Destroy(gameObject);
+
     }
 }
