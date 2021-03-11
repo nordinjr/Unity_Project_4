@@ -1757,7 +1757,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
@@ -1802,14 +1802,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ea1e989c59dc94eb4d338a2689cee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startButton: {fileID: 0}
-  backgroundImage: {fileID: 0}
-  canvas: {fileID: 0}
-  events: {fileID: 0}
-  menuText: {fileID: 0}
-  dialogBox: {fileID: 0}
-  dialogText: {fileID: 0}
-  typeSpeed: 0.05
 --- !u!4 &692247647
 Transform:
   m_ObjectHideFlags: 0
@@ -2314,7 +2306,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1684834947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 3.09, y: -2.52, z: 0}
+  m_LocalPosition: {x: 3.37, y: -2.52, z: 0}
   m_LocalScale: {x: 0.4836, y: 0.8279, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -2332,7 +2324,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa512d996f304428f855f71d9442dcb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
+  speed: 1
   angle: 0
 --- !u!1 &1773941315
 GameObject:
