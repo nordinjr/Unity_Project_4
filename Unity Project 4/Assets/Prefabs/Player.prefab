@@ -141,7 +141,7 @@ MonoBehaviour:
   maxHealth: 100
   currentHealth: 0
   healthbar: {fileID: 0}
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 1247148142586351953, guid: 0981877164c2bc94e84cbddbcd8a9246, type: 3}
 --- !u!95 &5344846555330194099
 Animator:
   serializedVersion: 3
