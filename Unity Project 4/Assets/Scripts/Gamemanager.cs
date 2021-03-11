@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        menuText.text = "Jellyfish Game";
     }
 
     // Update is called once per frame
