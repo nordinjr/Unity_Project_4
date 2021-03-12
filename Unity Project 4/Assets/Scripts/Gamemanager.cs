@@ -28,6 +28,17 @@ public class GameManager : MonoBehaviour
     public float typeSpeed = .05f;
     private Coroutine dialogCO;
 
+    public int plank;
+
+    public void collPlank(int numPlank)
+    {
+        plank += numPlank;
+        if (plank == 5)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {

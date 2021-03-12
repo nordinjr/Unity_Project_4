@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 1647062238428489099}
   - component: {fileID: 1606588711823748135}
   - component: {fileID: 4956018351077572243}
+  - component: {fileID: 5808036906559777277}
   m_Layer: 0
   m_Name: Plankton
   m_TagString: Untagged
@@ -221,3 +222,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound: {fileID: 0}
   prt: {fileID: 0}
+--- !u!114 &5808036906559777277
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8757727043904110621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 464564b283eb581469413914bd699f66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
