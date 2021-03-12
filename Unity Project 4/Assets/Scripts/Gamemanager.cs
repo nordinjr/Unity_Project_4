@@ -65,7 +65,7 @@ public class GameManager : MonoBehaviour
     }
 
 
-    private void ChangeLevel()
+    public void ChangeLevel()
     {
         if (currentLevel == 0)
         {
