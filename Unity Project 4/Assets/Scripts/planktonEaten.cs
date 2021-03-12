@@ -23,6 +23,7 @@ public class planktonEaten : MonoBehaviour
     {
         GameManager.Instance.IncPlanktonCount();
         StartCoroutine("Grabbed");
+        Debug.Log("You hit me!");
     }
 
     IEnumerator Grabbed()
