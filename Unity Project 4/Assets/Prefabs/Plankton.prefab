@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: -4061080949721724173}
   - component: {fileID: 981791877393298241}
   - component: {fileID: 1647062238428489099}
+  - component: {fileID: 1606588711823748135}
   m_Layer: 0
   m_Name: Plankton
   m_TagString: Untagged
@@ -120,7 +121,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5bbc448a7b07b4a46ae693440e22cf94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
+  speed: 1
   dolphin: {fileID: 0}
   target: {fileID: 0}
 --- !u!114 &-4061080949721724173
@@ -135,8 +136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa512d996f304428f855f71d9442dcb1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 0
-  angle: 0
+  speed: 1
+  angle: 1
 --- !u!61 &981791877393298241
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -189,3 +190,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2, y: 1.5}
   m_EdgeRadius: 0
+--- !u!114 &1606588711823748135
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8757727043904110621}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 911af26e8b1e7447785e9aafca0d4b90, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  minDist: 3
+  target: {fileID: 2339848503866548753, guid: 7ba01ae2511f73e4fa8445b034586226, type: 3}
+  dolphin: {fileID: 8427548698427730249, guid: 2de75b268b2e148d8a7802a42c370d52, type: 3}
