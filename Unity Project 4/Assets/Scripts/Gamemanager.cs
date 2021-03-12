@@ -33,7 +33,7 @@ public class GameManager : MonoBehaviour
     public void collPlank(int numPlank)
     {
         plank += numPlank;
-        if (plank == 5)
+        if (plank % 5 == 0)
         {
             SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
         }
