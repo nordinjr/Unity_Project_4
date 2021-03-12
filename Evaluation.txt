@@ -11,7 +11,7 @@ Mechanics: Point the jellyfish with the arrow keys and steer around. Dolphin mov
 
 Aesthetics: We used an underwater tilemap that is slightly pixellated. The other sprites match this theme. We used text that is similar to the text on spongebob. The jellyfish has an animation.
 
-Joys:
+Joys:  Fixing all the bugs and getting a final game! The awesome tileset. The murder hungry dolphin.
 
 Struggles: The GameManager kept renaming itself whenever we saved, so we would get an error that took us a while to find the first time.
 
@@ -25,7 +25,9 @@ Contributions
 
 Brandon: Level design, menus, animations, prefab creation, debugging, etc.
 
-Jake: Player Movement and follow camera, health system (health bar in UI), signs narrative find             tilemap
+Jake: Player Movement and follow camera, health system (health bar in UI), 
+      Talking fish for narrative (attempted but couldnt get working properly in time), 
+      worked on plankton counter for level progression (this took us a while to debug, not perfect but it works!)
 
 
 Andrew: Parallax for the backgrounds. AI movement. Sounds. Debugging.
