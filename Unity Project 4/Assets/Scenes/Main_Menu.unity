@@ -1209,7 +1209,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: You are a jellyfish trying to catch some plankton for dinner, but beware,
     there is a dolphin hunting you down for it's own dinner! Catch enough plankton
-    and leave before you get eaten! Use WASD or the Arrow Keys to move.
+    and leave before you get eaten! Use WASD or the Arrow Keys to move. There are
+    5 plankton per level to Eat.
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 7e573b5a731955e49aa1a8efb21cbc26, type: 2}
   m_sharedMaterial: {fileID: -6443508384946462953, guid: 7e573b5a731955e49aa1a8efb21cbc26, type: 2}
@@ -1987,6 +1988,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c9ea1e989c59dc94eb4d338a2689cee9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  startButton: {fileID: 0}
+  backgroundImage: {fileID: 0}
+  canvas: {fileID: 0}
+  events: {fileID: 0}
+  menuText: {fileID: 0}
+  planktonText: {fileID: 0}
+  dialogBox: {fileID: 0}
+  dialogText: {fileID: 0}
+  typeSpeed: 0.05
+  plank: 0
 --- !u!4 &1975470508
 Transform:
   m_ObjectHideFlags: 0
