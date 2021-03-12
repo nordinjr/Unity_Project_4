@@ -53,6 +53,7 @@ public class playerMovement : MonoBehaviour
         {
             Die();
         }
+        SoundEffects.PlaySound("impact");
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -61,7 +62,6 @@ public class playerMovement : MonoBehaviour
         {
             TakeDamage(20);
         }
-            SoundEffects.PlaySound("impact");
     }
 
 
