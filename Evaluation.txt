@@ -1,0 +1,33 @@
+Brandon Casey
+Jake Nordin
+Andrew Eveld
+Savannah Scott
+
+Intent: To have fun eating plankton and swimming away from a scary dolphin. Play as a jellyfish.
+
+Narrative structure: You are a hungry jellyfish who wants to stay alive and eat all of the yummy plankton.
+
+Mechanics: Point the jellyfish with the arrow keys and steer around. Dolphin moves similar to the jellyfish. Plankton swim around trying to avoid the dolphin and player.
+
+Aesthetics: We used an underwater tilemap that is slightly pixellated. The other sprites match this theme. We used text that is similar to the text on spongebob. The jellyfish has an animation.
+
+Joys:
+
+Struggles: The GameManager kept renaming itself whenever we saved, so we would get an error that took us a while to find the first time.
+
+// heart and bar : https://github.com/Brackeys/Health-Bar/blob/master/Health%20Bar/Assets/Sprites/Bar.png
+// Jellyfish : https://www.hiddenone-sprites.com/resource-blog/sv-battler-sprite-jamming-jellyfish
+// Dolphin: https://opengameart.org/content/dolphin-baby-and-ocean-tiles
+// Parallax: https://gist.github.com/ashblue/3915ab3d02dbaa6d99dc
+
+
+Contributions
+
+Brandon: Level design, menus, animations, prefab creation, debugging, etc.
+
+Jake: Player Movement and follow camera, health system (health bar in UI), signs narrative find             tilemap
+
+
+Andrew: Parallax for the backgrounds. AI movement. Sounds. Debugging.
+
+Savannah:
